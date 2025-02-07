@@ -8,7 +8,7 @@ import (
 )
 
 func main() {
-	fmt.Println("New Proj")
+	fmt.Println("Weather")
 	city := flag.String("city", "", "Город пользователя")
 	format := flag.Int("format", 1, "Формат вывода погоды")
 
